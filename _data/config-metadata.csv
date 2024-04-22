@@ -13,5 +13,8 @@ source,Source,,
 identifier,Source Identifier,,
 type,Type,,
 format,Format,,
+dimensions,Dimensions,,
+size,File Size,,
 rights,Rights,,
 rightsstatement,Rights Statement,,true
+rights_holder,Rights Holder,,
