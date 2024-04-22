@@ -37,8 +37,8 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 ##########
 # TIMELINE PAGE
 #
-year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+year-navigation: #"2020-08-10;2020-08-11;2020-08-12;2020-08-13;2020-08-14;2020-08-15;2020-08-16;2020-08-17;2020-08-18;2020-08-19;2020-08-20;2020-08-21;2020-08-22" # set years to appear in dropdown nav, leave blank to auto gen
+year-nav-increment:  # set increments when auto gen nav years
 
 ##########
 # DATA 
