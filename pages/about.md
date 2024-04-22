@@ -8,11 +8,15 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+{% include feature/jumbotron.html objectid=midwestderecho2020_009 %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Host" %}
 
 ## About the Collection
+
+This collection consists of personal photographs documenting the period of time from when the 2020 Midwest Derecho struck Cedar Rapids, IA, to when power was finally restored to my home. Included in the collection are images of the devastation, in addition to slice-of-life pictures meant to express what the experience was like. As a resident of Iowa, I felt like we were largely overlooked by the rest of the country in the aftermath of the storm, despite the immense damage and hardships the community experienced. While I was very fortunate to avoid any damage that would render my home unlivable, many others in the area lost their housing due to the storm, while also struggling with limited access to the news, food insecurity, barriers to transportation, and more. My hope is to inspire others who went through this experience to share their stories, as well as increase awareness of this even for those who were previously unaware of it.
+
+## About the Host
 
 This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
 
@@ -23,5 +27,3 @@ The template repository features four objects from the University of Idaho Libra
 
 For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
