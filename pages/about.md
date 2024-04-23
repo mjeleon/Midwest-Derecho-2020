@@ -18,6 +18,8 @@ This collection consists of personal photographs documenting the period of time 
 
 ## About the Creator
 
+{% include feature/image.html objectid="IMG_2778_sm_sm" width="75" centered=true%}
+
 This digital collection was created and curated by Maria Jose Eyzaguirre. Though she spent most of her childhood in Lima Peru, she has resided in Cedar Rapids, IA for over a decade and has grown quite fond of the Midwest as a whole. She has Bachelor's degrees in English and Creative Writing, and is currently working on her Master's in Library and Information Science from the University of Iowa.
 
 ## About the Host
