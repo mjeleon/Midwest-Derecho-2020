@@ -3,5 +3,6 @@ filename,File Name,,,Sequence
 date,Date,,,Date
 creator,Creator,,,
 subject,,true,,
+keywords,,true,,
 location,,true,,
 zip_code,,true,,
