@@ -18,7 +18,7 @@ This collection consists of personal photographs documenting the period of time 
 
 ## About the Creator
 
-{% include feature/image.html objectid=/objects/IMG_2778_sm_sm.jpg width="75" centered=true%}
+{% include feature/image.html objectid=/objects/IMG_2778_sm_sm.jpg width="75" centered=true alt="Woman smiling in apple orchard with an apple in hand" %}
 
 This digital collection was created and curated by Maria Jose Eyzaguirre. Though she spent most of her childhood in Lima Peru, she has resided in Cedar Rapids, IA for over a decade and has grown quite fond of the Midwest as a whole. She has Bachelor's degrees in English and Creative Writing, and is currently working on her Master's in Library and Information Science from the University of Iowa.
 
