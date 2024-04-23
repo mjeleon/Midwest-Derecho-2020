@@ -14,7 +14,7 @@ custom-foot: js/timeline-js.html
 {% endif %}
 {%- assign items = items | where_exp: 'item','item[field]' -%}
 {%- assign raw-dates = items | map: field | compact | uniq -%}
-{%- capture clean-days -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
+{%- capture clean-days -%}{% for date in raw-dates %}{{ date | strip }}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign uniqueDays = clean-days | replace: ";;",";" | split: ";" | compact | uniq | sort -%}
 {%- if site.data.theme.day-navigation -%}
 {%- assign navDays = site.data.theme.day-navigation | split: ";" -%}
